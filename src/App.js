@@ -32,7 +32,7 @@ function Externalusers() {
 };
 function User(props) {
   return (
-    <div>
+    <div className="user">
       <h4>Name:{props.name}</h4>
       <h4>Email:{props.email}</h4>
     </div>
