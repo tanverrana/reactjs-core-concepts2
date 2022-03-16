@@ -7,9 +7,17 @@ function App() {
 
   return (
     <div className="App" >
-      <Counter></Counter>
+      {/* <Counter></Counter> */}
+      <Externalusers></Externalusers>
     </div>
   );
+}
+function Externalusers() {
+  return (
+    <div>
+      <h2>External User</h2>
+    </div>
+  )
 }
 
 function Counter() {
